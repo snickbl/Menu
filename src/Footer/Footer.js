@@ -4,8 +4,8 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer className='footer'>
-        <footer class="site-footer">
-            <div class="container"></div>
+        <footer className="site-footer">
+            <div className="container"></div>
         </footer>
     </footer>
   )

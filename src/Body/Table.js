@@ -2,244 +2,433 @@ import React from 'react'
 import "./table.css";
 
 const Table = () => {
+
+
+
   return (
     <div className='table_container'>
-        <table className='table_block'>
-            <caption>Меню ресторана "Ромашка"</caption> 
-            <tr>
-                <th rowspan="2" className="first">Кухня</th>
-                <th colspan="2">Холодные блюда</th>
-                <th colspan="2">Горячие блюда</th>
-                <th rowspan="2">Десерты</th>
-            </tr>
-            <tr>
-                <td className="first">Салаты</td>
-                <td className="first">Закуски</td>
-                <td className="first">Первые блюда</td>
-                <td className="first">Вторые блюда</td>
-            </tr>
-            <tr>
-                <td rowspan="3" className="first">Русская</td>
-                <td>Винегрет</td>
-                <td>Язык с хреном</td>
-                <td>Щи с квашеной капустой</td>
-                <td>Вареники с картошкой</td>
-                <td>Печеные яблоки с медом</td>
-            </tr>
-            <tr>
-                <td>Оливье</td>
-                <td>Студень говяжий</td>
-                <td>Рассольник домашний</td>
-                <td>Караси запеченые в сметане</td>
-                <td>Блинчатый пирог</td>
-            </tr>
-            <tr>
-                <td>Сельдь под "шубой"</td>
-                <td>Судак заливной</td>
-                <td>Мясная солянка</td>
-                <td>Котлеты "Пожарские"</td>
-                <td>Пирожное "Картошка"</td>
-                </tr>
-            <tr>
-                <td rowspan="3" className="first">Испанская</td>
-                <td>Севиче из гребешков</td>
-                <td>Эмпанадас</td>
-                <td>Хлебный суп с чесноком</td>
-                <td>Паэлья с морепродуктами</td>
-                <td>Чуррос</td>
-                </tr>
-            <tr>
-                <td>Тимбал из авокадо и тунца</td>
-                <td>Ахотомате</td>
-                <td>Астурийская фабада</td>
-                <td>Свиное раксо</td>
-                <td>Альмойшавена</td>
-                </tr>
-            <tr>
-                <td>Фасоль с ветчиной</td>
-                <td>Чанфайна</td>
-                <td>Рыбный суп с манными клецками </td>
-                <td>Тортилья картофельная</td>
-                <td>Бунуэлос</td>
-                </tr>
-            <tr>
-                <td rowspan="3" className="first">Французская</td>
-                <td>Вогезский салат</td>
-                <td>Рийет из курицы</td>
-                <td>Баклажанный крем-суп "Ренуар"</td>
-                <td>Картофель огратен</td>
-                <td>Бриоши</td>
-                </tr>
-            <tr>
-                <td>Салат "Панзанелла"</td>
-                <td>Делисьез из сыра</td>
-                <td>Французский тыквенный суп</td>
-                <td>Гратин из птицы</td>
-                <td>Лигурийский лимонный пирог</td>
-                </tr>
-            <tr>
-                <td>Тар-тар</td>
-                <td>Маринованный лосось</td>
-                <td>Суп "Конти"</td>
-                <td>Тартифлетт</td>
-                <td>Саварен "Триумф"</td>
-            </tr>
-            <tr>
-                <td rowspan="3" className="first">Русская</td>
-                <td>Винегрет</td>
-                <td>Язык с хреном</td>
-                <td>Щи с квашеной капустой</td>
-                <td>Вареники с картошкой</td>
-                <td>Печеные яблоки с медом</td>
-            </tr>
-            <tr>
-                <td>Оливье</td>
-                <td>Студень говяжий</td>
-                <td>Рассольник домашний</td>
-                <td>Караси запеченые в сметане</td>
-                <td>Блинчатый пирог</td>
-            </tr>
-            <tr>
-                <td>Сельдь под "шубой"</td>
-                <td>Судак заливной</td>
-                <td>Мясная солянка</td>
-                <td>Котлеты "Пожарские"</td>
-                <td>Пирожное "Картошка"</td>
-                </tr>
-            <tr>
-                <td rowspan="3" className="first">Испанская</td>
-                <td>Севиче из гребешков</td>
-                <td>Эмпанадас</td>
-                <td>Хлебный суп с чесноком</td>
-                <td>Паэлья с морепродуктами</td>
-                <td>Чуррос</td>
-                </tr>
-            <tr>
-                <td>Тимбал из авокадо и тунца</td>
-                <td>Ахотомате</td>
-                <td>Астурийская фабада</td>
-                <td>Свиное раксо</td>
-                <td>Альмойшавена</td>
-                </tr>
-            <tr>
-                <td>Фасоль с ветчиной</td>
-                <td>Чанфайна</td>
-                <td>Рыбный суп с манными клецками </td>
-                <td>Тортилья картофельная</td>
-                <td>Бунуэлос</td>
-                </tr>
-            <tr>
-                <td rowspan="3" className="first">Французская</td>
-                <td>Вогезский салат</td>
-                <td>Рийет из курицы</td>
-                <td>Баклажанный крем-суп "Ренуар"</td>
-                <td>Картофель огратен</td>
-                <td>Бриоши</td>
-                </tr>
-            <tr>
-                <td>Салат "Панзанелла"</td>
-                <td>Делисьез из сыра</td>
-                <td>Французский тыквенный суп</td>
-                <td>Гратин из птицы</td>
-                <td>Лигурийский лимонный пирог</td>
-                </tr>
-            <tr>
-                <td>Тар-тар</td>
-                <td>Маринованный лосось</td>
-                <td>Суп "Конти"</td>
-                <td>Тартифлетт</td>
-                <td>Саварен "Триумф"</td>
-            </tr>
-            <tr>
-                <td rowspan="3" className="first">Русская</td>
-                <td>Винегрет</td>
-                <td>Язык с хреном</td>
-                <td>Щи с квашеной капустой</td>
-                <td>Вареники с картошкой</td>
-                <td>Печеные яблоки с медом</td>
-            </tr>
-            <tr>
-                <td>Оливье</td>
-                <td>Студень говяжий</td>
-                <td>Рассольник домашний</td>
-                <td>Караси запеченые в сметане</td>
-                <td>Блинчатый пирог</td>
-            </tr>
-            <tr>
-                <td>Сельдь под "шубой"</td>
-                <td>Судак заливной</td>
-                <td>Мясная солянка</td>
-                <td>Котлеты "Пожарские"</td>
-                <td>Пирожное "Картошка"</td>
-            </tr>
-            <tr>
-                <td rowspan="3" className="first">Испанская</td>
-                <td>Севиче из гребешков</td>
-                <td>Эмпанадас</td>
-                <td>Хлебный суп с чесноком</td>
-                <td>Паэлья с морепродуктами</td>
-                <td>Чуррос</td>
-                </tr>
-            <tr>
-                <td>Тимбал из авокадо и тунца</td>
-                <td>Ахотомате</td>
-                <td>Астурийская фабада</td>
-                <td>Свиное раксо</td>
-                <td>Альмойшавена</td>
-            </tr>
-            <tr>
-                <td>Фасоль с ветчиной</td>
-                <td>Чанфайна</td>
-                <td>Рыбный суп с манными клецками </td>
-                <td>Тортилья картофельная</td>
-                <td>Бунуэлос</td>
-            </tr>
-            <tr>
-                <td rowspan="3" className="first">Французская</td>
-                <td>Вогезский салат</td>
-                <td>Рийет из курицы</td>
-                <td>Баклажанный крем-суп "Ренуар"</td>
-                <td>Картофель огратен</td>
-                <td>Бриоши</td>
-            </tr>
-            <tr>
-                <td>Салат "Панзанелла"</td>
-                <td>Делисьез из сыра</td>
-                <td>Французский тыквенный суп</td>
-                <td>Гратин из птицы</td>
-                <td>Лигурийский лимонный пирог</td>
-            </tr>
-            <tr>
-                <td>Тар-тар</td>
-                <td>Маринованный лосось</td>
-                <td>Суп "Конти"</td>
-                <td>Тартифлетт</td>
-                <td>Саварен "Триумф"</td>
-            </tr>
-            <tr>
-                <td rowspan="3" className="first">Русская</td>
-                <td>Винегрет</td>
-                <td>Язык с хреном</td>
-                <td>Щи с квашеной капустой</td>
-                <td>Вареники с картошкой</td>
-                <td>Печеные яблоки с медом</td>
-            </tr>
-            <tr>
-                <td>Оливье</td>
-                <td>Студень говяжий</td>
-                <td>Рассольник домашний</td>
-                <td>Караси запеченые в сметане</td>
-                <td>Блинчатый пирог</td>
-            </tr>
-            <tr>
-                <td>Сельдь под "шубой"</td>
-                <td>Судак заливной</td>
-                <td>Мясная солянка</td>
-                <td>Котлеты "Пожарские"</td>
-                <td>Пирожное "Картошка"</td>
-                </tr>
-            
-        </table>
+      <table className='table'>
+        <tr>
+          <th>id</th>
+          <th>Barkod</th>
+          <th>Kod</th>
+          <th>Ad</th>
+          <th>Firma</th>
+          <th>Terkib</th>
+          <th>Etibarliq Tarixi</th>
+          <th>Qrup</th>
+          <th>Olcu</th>
+          <th>Reng</th>
+          <th>Satish say</th>
+          <th>Endirim</th>
+          <th>Qiymet</th>
+          <th>Maya</th>
+          <th>Gelir</th>
+          <th>Umumi satish</th>
+          <th>Satish tarixi</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="text"/></td>
+          <td><input type="text"/></td>
+          <td><input type="text"/></td>
+          <td><input type="text"/></td>
+          <td><input type="text"/></td>
+          <td><input type="text"/></td>
+          <td><input type="text"/></td>
+          <td><input type="text"/></td>
+          <td><input type="text"/></td>
+          <td><input type="text"/></td>
+          <td><input type="text"/></td>
+          <td><input type="text"/></td>
+          <td><input type="text"/></td>
+          <td><input type="text"/></td>
+          <td><input type="text"/></td>
+          <td><input type="text"/></td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1234567890</td>
+          <td>12345</td>
+          <td>Aknetrent 20mg</td>
+          <td>Zeytun</td>
+          <td>null</td>
+          <td>06.11.2024</td>
+          <td>Derman</td>
+          <td>QUTU</td>
+          <td>D</td>
+          <td><div className='satish'>1</div></td>
+          <td>Endirim</td>
+          <td>12</td>
+          <td>10</td>
+          <td>0.07</td>
+          <td>0.42</td>
+          <td>27.04.2023</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1234567890</td>
+          <td>12345</td>
+          <td>Aknetrent 20mg</td>
+          <td>Zeytun</td>
+          <td>null</td>
+          <td>06.11.2024</td>
+          <td>Derman</td>
+          <td>QUTU</td>
+          <td>D</td>
+            <td><div className='satish'>1</div></td>
+          <td>Endirim</td>
+          <td>12</td>
+          <td>10</td>
+          <td>0.07</td>
+          <td>0.42</td>
+          <td>27.04.2023</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1234567890</td>
+          <td>12345</td>
+          <td>Aknetrent 20mg</td>
+          <td>Zeytun</td>
+          <td>null</td>
+          <td>06.11.2024</td>
+          <td>Derman</td>
+          <td>QUTU</td>
+          <td>D</td>
+            <td><div className='satish'>1</div></td>
+          <td>Endirim</td>
+          <td>12</td>
+          <td>10</td>
+          <td>0.07</td>
+          <td>0.42</td>
+          <td>27.04.2023</td>
+      </tr><tr>
+          <td>1</td>
+          <td>1234567890</td>
+          <td>12345</td>
+          <td>Aknetrent 20mg</td>
+          <td>Zeytun</td>
+          <td>null</td>
+          <td>06.11.2024</td>
+          <td>Derman</td>
+          <td>QUTU</td>
+          <td>D</td>
+          <td><div className='satish'>1</div></td>
+          <td>Endirim</td>
+          <td>12</td>
+          <td>10</td>
+          <td>0.07</td>
+          <td>0.42</td>
+          <td>27.04.2023</td>
+      </tr><tr>
+          <td>1</td>
+          <td>1234567890</td>
+          <td>12345</td>
+          <td>Aknetrent 20mg</td>
+          <td>Zeytun</td>
+          <td>null</td>
+          <td>06.11.2024</td>
+          <td>Derman</td>
+          <td>QUTU</td>
+          <td>D</td>
+          <td><div className='satish'>1</div></td>
+          <td>Endirim</td>
+          <td>12</td>
+          <td>10</td>
+          <td>0.07</td>
+          <td>0.42</td>
+          <td>27.04.2023</td>
+      </tr><tr>
+          <td>1</td>
+          <td>1234567890</td>
+          <td>12345</td>
+          <td>Aknetrent 20mg</td>
+          <td>Zeytun</td>
+          <td>null</td>
+          <td>06.11.2024</td>
+          <td>Derman</td>
+          <td>QUTU</td>
+          <td>D</td>
+          <td><div className='satish'>1</div></td>
+          <td>Endirim</td>
+          <td>12</td>
+          <td>10</td>
+          <td>0.07</td>
+          <td>0.42</td>
+          <td>27.04.2023</td>
+      </tr><tr>
+          <td>1</td>
+          <td>1234567890</td>
+          <td>12345</td>
+          <td>Aknetrent 20mg</td>
+          <td>Zeytun</td>
+          <td>null</td>
+          <td>06.11.2024</td>
+          <td>Derman</td>
+          <td>QUTU</td>
+          <td>D</td>
+          <td><div className='satish'>1</div></td>
+          <td>Endirim</td>
+          <td>12</td>
+          <td>10</td>
+          <td>0.07</td>
+          <td>0.42</td>
+          <td>27.04.2023</td>
+      </tr><tr>
+          <td>1</td>
+          <td>1234567890</td>
+          <td>12345</td>
+          <td>Aknetrent 20mg</td>
+          <td>Zeytun</td>
+          <td>null</td>
+          <td>06.11.2024</td>
+          <td>Derman</td>
+          <td>QUTU</td>
+          <td>D</td>
+          <td><div className='satish'>1</div></td>
+          <td>Endirim</td>
+          <td>12</td>
+          <td>10</td>
+          <td>0.07</td>
+          <td>0.42</td>
+          <td>27.04.2023</td>
+      </tr><tr>
+        <td>1</td>
+        <td>1234567890</td>
+        <td>12345</td>
+        <td>Aknetrent 20mg</td>
+        <td>Zeytun</td>
+        <td>null</td>
+        <td>06.11.2024</td>
+        <td>Derman</td>
+        <td>QUTU</td>
+        <td>D</td>
+          <td><div className='satish'>1</div></td>
+        <td>Endirim</td>
+        <td>12</td>
+        <td>10</td>
+        <td>0.07</td>
+        <td>0.42</td>
+        <td>27.04.2023</td>
+      </tr><tr>
+        <td>1</td>
+        <td>1234567890</td>
+        <td>12345</td>
+        <td>Aknetrent 20mg</td>
+        <td>Zeytun</td>
+        <td>null</td>
+        <td>06.11.2024</td>
+        <td>Derman</td>
+        <td>QUTU</td>
+        <td>D</td>
+          <td><div className='satish'>1</div></td>
+        <td>Endirim</td>
+        <td>12</td>
+        <td>10</td>
+        <td>0.07</td>
+        <td>0.42</td>
+        <td>27.04.2023</td>
+      </tr><tr>
+        <td>1</td>
+        <td>1234567890</td>
+        <td>12345</td>
+        <td>Aknetrent 20mg</td>
+        <td>Zeytun</td>
+        <td>null</td>
+        <td>06.11.2024</td>
+        <td>Derman</td>
+        <td>QUTU</td>
+        <td>D</td>
+          <td><div className='satish'>1</div></td>
+        <td>Endirim</td>
+        <td>12</td>
+        <td>10</td>
+        <td>0.07</td>
+        <td>0.42</td>
+        <td>27.04.2023</td>
+      </tr><tr>
+        <td>1</td>
+        <td>1234567890</td>
+        <td>12345</td>
+        <td>Aknetrent 20mg</td>
+        <td>Zeytun</td>
+        <td>null</td>
+        <td>06.11.2024</td>
+        <td>Derman</td>
+        <td>QUTU</td>
+        <td>D</td>
+          <td><div className='satish'>1</div></td>
+        <td>Endirim</td>
+        <td>12</td>
+        <td>10</td>
+        <td>0.07</td>
+        <td>0.42</td>
+        <td>27.04.2023</td>
+      </tr><tr>
+        <td>1</td>
+        <td>1234567890</td>
+        <td>12345</td>
+        <td>Aknetrent 20mg</td>
+        <td>Zeytun</td>
+        <td>null</td>
+        <td>06.11.2024</td>
+        <td>Derman</td>
+        <td>QUTU</td>
+        <td>D</td>
+          <td><div className='satish'>1</div></td>
+        <td>Endirim</td>
+        <td>12</td>
+        <td>10</td>
+        <td>0.07</td>
+        <td>0.42</td>
+        <td>27.04.2023</td>
+      </tr>
+        <tr>
+          <td>1</td>
+          <td>1234567890</td>
+          <td>12345</td>
+          <td>Aknetrent 20mg</td>
+          <td>Zeytun</td>
+          <td>null</td>
+          <td>06.11.2024</td>
+          <td>Derman</td>
+          <td>QUTU</td>
+          <td>D</td>
+            <td><div className='satish'>1</div></td>
+          <td>Endirim</td>
+          <td>12</td>
+          <td>10</td>
+          <td>0.07</td>
+          <td>0.42</td>
+          <td>27.04.2023</td>
+        </tr><tr>
+        <td>1</td>
+        <td>1234567890</td>
+        <td>12345</td>
+        <td>Aknetrent 20mg</td>
+        <td>Zeytun</td>
+        <td>null</td>
+        <td>06.11.2024</td>
+        <td>Derman</td>
+        <td>QUTU</td>
+        <td>D</td>
+          <td><div className='satish'>1</div></td>
+        <td>Endirim</td>
+        <td>12</td>
+        <td>10</td>
+        <td>0.07</td>
+        <td>0.42</td>
+        <td>27.04.2023</td>
+      </tr><tr>
+        <td>1</td>
+        <td>1234567890</td>
+        <td>12345</td>
+        <td>Aknetrent 20mg</td>
+        <td>Zeytun</td>
+        <td>null</td>
+        <td>06.11.2024</td>
+        <td>Derman</td>
+        <td>QUTU</td>
+        <td>D</td>
+          <td><div className='satish'>1</div></td>
+        <td>Endirim</td>
+        <td>12</td>
+        <td>10</td>
+        <td>0.07</td>
+        <td>0.42</td>
+        <td>27.04.2023</td>
+      </tr><tr>
+        <td>1</td>
+        <td>1234567890</td>
+        <td>12345</td>
+        <td>Aknetrent 20mg</td>
+        <td>Zeytun</td>
+        <td>null</td>
+        <td>06.11.2024</td>
+        <td>Derman</td>
+        <td>QUTU</td>
+        <td>D</td>
+          <td><div className='satish'>1</div></td>
+        <td>Endirim</td>
+        <td>12</td>
+        <td>10</td>
+        <td>0.07</td>
+        <td>0.42</td>
+        <td>27.04.2023</td>
+      </tr><tr>
+        <td>1</td>
+        <td>1234567890</td>
+        <td>12345</td>
+        <td>Aknetrent 20mg</td>
+        <td>Zeytun</td>
+        <td>null</td>
+        <td>06.11.2024</td>
+        <td>Derman</td>
+        <td>QUTU</td>
+        <td>D</td>
+          <td><div className='satish'>1</div></td>
+        <td>Endirim</td>
+        <td>12</td>
+        <td>10</td>
+        <td>0.07</td>
+        <td>0.42</td>
+        <td>27.04.2023</td>
+      </tr><tr>
+        <td>1</td>
+        <td>1234567890</td>
+        <td>12345</td>
+        <td>Aknetrent 20mg</td>
+        <td>Zeytun</td>
+        <td>null</td>
+        <td>06.11.2024</td>
+        <td>Derman</td>
+        <td>QUTU</td>
+        <td>D</td>
+          <td><div className='satish'>1</div></td>
+        <td>Endirim</td>
+        <td>12</td>
+        <td>10</td>
+        <td>0.07</td>
+        <td>0.42</td>
+        <td>27.04.2023</td>
+      </tr><tr>
+        <td>1</td>
+        <td>1234567890</td>
+        <td>12345</td>
+        <td>Aknetrent 20mg</td>
+        <td>Zeytun</td>
+        <td>null</td>
+        <td>06.11.2024</td>
+        <td>Derman</td>
+        <td>QUTU</td>
+        <td>D</td>
+          <td><div className='satish'>1</div></td>
+        <td>Endirim</td>
+        <td>12</td>
+        <td>10</td>
+        <td>0.07</td>
+        <td>0.42</td>
+        <td>27.04.2023</td>
+      </tr><tr>
+        <td>1</td>
+        <td>1234567890</td>
+        <td>12345</td>
+        <td>Aknetrent 20mg</td>
+        <td>Zeytun</td>
+        <td>null</td>
+        <td>06.11.2024</td>
+        <td>Derman</td>
+        <td>QUTU</td>
+        <td>D</td>
+          <td><div className='satish'>1</div></td>
+        <td>Endirim</td>
+        <td>12</td>
+        <td>10</td>
+        <td>0.07</td>
+        <td>0.42</td>
+        <td>27.04.2023</td>
+      </tr>
+      </table>
     </div>
   )
 }
